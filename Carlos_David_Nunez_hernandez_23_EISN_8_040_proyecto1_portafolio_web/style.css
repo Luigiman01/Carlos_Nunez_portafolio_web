@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 50px 0;
+}
+
+.profile-img {
+    margin-top: 35px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #343a40;
+    padding: 20px 0;
+}
+
+footer a {
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+/* Modo Oscuro */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode header {
+    background: linear-gradient(135deg, #4a00e0, #8e2de2);
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode footer {
+    background-color: #1e1e1e;
+}
+.ache1{
+    margin-top: 10px;
+}
